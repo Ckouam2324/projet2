@@ -1,0 +1,54 @@
+/*
+Theme Name: Mon-Thème shakeeat
+Author: shakeeat
+Description: Un thème WordPress personnalisé.
+Version: 1.0
+*/
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .overlay h5 {
+    margin-bottom: 10px;
+  }
+  .overlay button {
+    margin-top: 10px;
+  }
+  .image-wrapper {
+    margin-bottom: 20px; /* Espace entre les images */
+  }
+
+
+  .footer {
+    background-color: #65b0fb;
+    padding: 40px 0;
+  }
+  .footer .column {
+    margin-bottom: 20px;
+  }
+  .footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  .footer .social-icons a {
+    margin-right: 10px;
+    color: #6c757d;
+    text-decoration: none;
+  }
+  .footer .social-icons a:hover {
+    color: #000;
+  }
